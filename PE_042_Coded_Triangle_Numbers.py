@@ -8,8 +8,8 @@ for i in range(40):
     triangle.append(i*(i+1)/2)
 counter=0
 print data
-for thingy in data:
-    for word in thingy:
+for element in data:
+    for word in element:
         score=0
         for ltr in word:
             score+=ord(ltr)-64
